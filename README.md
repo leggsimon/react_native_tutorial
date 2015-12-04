@@ -24,7 +24,7 @@ I changed the `start` script in `package.json` to use a custom port (I chose 808
   },
 ```
 
-* In X-Code under `Libraries/React.xcodeproj select Build Phases > Run Script.
+* In X-Code under `Libraries/React.xcodeproj` select Build Phases > Run Script.
 
 Either remove this entry, having called npm start yourself, or edit the port.
 
