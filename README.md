@@ -49,3 +49,5 @@ jsCodeLocation = [NSURL URLWithString:@"http://localhost:8080/index.ios.bundle?p
 ```objective-c
 NSInteger port = [standardDefaults integerForKey:@"websocket-executor-port"] ?: 8080;
 ```
+
+The porting solutions were found in this [StackOverflow question](http://stackoverflow.com/questions/30216417/react-native-port-8081-already-in-use-packager-is-either-not-running-or-not-r) and the [react troubleshooting](http://facebook.github.io/react-native/docs/troubleshooting.html).
