@@ -1,22 +1,22 @@
 # React Native Tutorial
 
-### Installation
+## Installation
 
 ```
-git clone
+git clone https://github.com/leggsimon/react_native_tutorial.git
 cd AwesomeProject
 npm install
 npm start
 open ios/AwesomeProject.xcodeproj
 ```
 
-This opens X-Code. Hit `Cmd - R` to build (_see below for port issues_)
+This opens X-Code. Hit `⌘R` to build.
 
-##### Port issues
+#### Port issues
 
-* It defaults to using port 8081 but for some reason it seems to be constantly in use on my machine.
+When the `react-native init` scaffolds it defaults the app to use port 8081, for some reason that port seems to be constantly in use on my machine.
 
-I changed the `start` script in `package.json` to use a custom port (I chose 8080)
+* I changed the `start` script in `package.json` to use a custom port (I chose 8080)
 
 ```javascript
   "scripts": {
