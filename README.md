@@ -55,3 +55,7 @@ The porting solutions were found in this [StackOverflow question](http://stackov
 ### Navigation
 
 Will start with [this tutorial](http://devdactic.com/react-native-navigator/).
+
+### Testing
+
+Look at [Enzyme](http://airbnb.io/enzyme/)
